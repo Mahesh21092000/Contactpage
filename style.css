@@ -1,0 +1,71 @@
+body{
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+h1{
+    
+    text-align: center;
+    margin-top:100px;
+    margin-bottom: 1px;
+}
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 5%;
+    height: 50vh;
+    
+   
+}
+.phone{
+    margin-left: 7%;
+    width: 30%;
+}
+.chat{
+    width: 33%;
+}
+.livechat{
+    width: 33%;
+}
+.button{
+    padding: 1%;
+    border-radius: 5%;
+    border-color: green;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+
+.footer{
+   margin: 0;
+   padding: 0;
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    
+}
+.middle ul{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+li{
+    padding: 10px;
+}
+.footer aside:hover{
+    background-color: darkolivegreen;
+}
+.middle a{
+    text-decoration: none;
+    color: white;
+}
+.middle a:hover{
+    color: brown;
+}
